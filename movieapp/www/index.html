@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+		<link href="css/index.css" rel="stylesheet">
+        
+		<title>Movie App</title>
+    </head>
+    <body onload="onLoad()">
+	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" id="left-menu-btn" onclick="leftmenuopen()">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand animated bounce" href="#">Movie App</a>
+				</div>
+			</div>
+		</nav>
+	
+		<div class="row">
+			<div class="col-xs-12 grid" id="moviefeed">
+				<div class="loadingimage"><img src="img/squares.gif"></div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		
+		
+    </body>
+</html>
